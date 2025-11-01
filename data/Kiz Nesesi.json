@@ -8,6 +8,11 @@
     "percentToQualify": 100,
     "reupload": "Evet",
     "records": [
-        
+        {
+            "user": "GhostLord",
+            "link": "#",
+            "percent": 100,
+            "hz": 144
+        }
     ]
 }

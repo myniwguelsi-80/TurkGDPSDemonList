@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "reupload": "Evet",
     "records": [
+        {
+            "user": "DARKPNGGD",
+            "link": "https://youtu.be/q4ky_NcbLZQ?si=wg3n9-EtKHy4J2oP",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
