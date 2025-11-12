@@ -37,6 +37,12 @@
             "link": "#",
             "percent": 100,
             "hz": 144
-         }   
+         },
+         {
+              "user": "Nordrex",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+        }       
     ]
 }

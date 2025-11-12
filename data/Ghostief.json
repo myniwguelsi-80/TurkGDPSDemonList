@@ -8,6 +8,11 @@
     "percentToQualify": 100,
     "reupload": "Hayır",
     "records": [
-       
+       {
+              "user": "Nordrex",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+        }    
     ]
 }
