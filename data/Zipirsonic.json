@@ -8,6 +8,11 @@
     "percentToQualify": 100,
     "reupload": "Evet",
     "records": [
-       
+       {
+            "user": "ceoplays",
+            "link": "#",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
