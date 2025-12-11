@@ -8,6 +8,12 @@
     "percentToQualify": 100,
     "reupload": "Hayır",
     "records": [
+                 {
+              "user": "Lightworkk",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
        
     ]
 }
