@@ -186,9 +186,9 @@ export default {
                 video: lvl.verification,
             }));
             const list = [];
-            if (this.useMainList) list.push(...fullListMapped.slice(0, 75));
+            if (this.useMainList) list.push(...fullListMapped.slice(0, 50));
             if (this.useExtendedList) {
-                list.push(...fullListMapped.slice(75, 150));
+                list.push(...fullListMapped.slice(50, 100));
             }
 
             // Rastgele 100 seviye
