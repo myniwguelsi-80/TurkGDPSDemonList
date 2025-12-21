@@ -39,6 +39,7 @@
 .page-list .list .level button:hover {
     background-color: var(--color-background-hover);
     color: var(--color-on-background-hover);
+    cursor: pointer;
 }
 .page-list .list .level.active button {
     background-color: var(--color-primary);
@@ -72,16 +73,37 @@
     align-items: center;
     gap: 1rem;
 }
+.page-list .level-container .level .packs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+.page-list .level-container .level .packs .tag {
+    display: flex;
+    flex-shrink: 0;
+    background-size: 100% 100% !important;
+        mix-blend-mode: normal;
+        color: rgb(255, 255, 255);
+        text-shadow:
+            3px 3px 0 #00000079,
+          -1px -1px 0 #000,  
+           1px -1px 0 #000,
+           -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+.tag {
+    border-radius: 7px;
+}
 .page-list .level-container .level .records {
     table-layout: fixed;
 }
-.page-list .level-container .level .records tr td:not(:last-child) {
+.page-list .level-container .level .records tr td:not(:last-child) .tag{
     padding-right: 1rem;
 }
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .user,
 .page-list .level-container .level .records .hz {
-    padding-block: 1rem;
+    padding: 1rem 1rem 1rem 0;
 }
 .page-list .level-container .level .records .user {
     width: 100%;
@@ -115,6 +137,12 @@
     flex-direction: column;
     gap: 0.75rem;
 }
+.page-list .meta .promote {
+    padding: 1rem;
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    border-radius: 0.5rem;
+}
 .page-list .meta .editors li {
     display: flex;
     align-items: center;
@@ -125,4 +153,29 @@
 }
 .page-list .meta .editors li a:hover {
     text-decoration: underline;
+}
+
+/* Shitty */
+
+.shitty .page-list .list .level button {
+    background-color: transparent;
+    padding: 1rem 0;
+}
+
+
+.shitty .page-list .list .level button:hover {
+    background-color: #eee;
+    color: black !important;
+}
+
+.shitty .page-list .list .level.active button {
+    background-color: transparent;
+    color: orange;
+}
+
+.tag {
+    font-family: "Lexend Deca", sans-serif;
+    display:block;
+    border-radius: 14px;
+    padding: 7px;
 }

@@ -85,9 +85,46 @@
 .page-leaderboard .player .table .score p {
     text-align: end;
 }
+.page-leaderboard .player .packs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+        mix-blend-mode: normal;
+        color: rgb(255, 255, 255);
+        text-shadow:
+            3px 3px 0 #00000057,
+          -1px -1px 0 #000,  
+           1px -1px 0 #000,
+           -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+.page-leaderboard .player .packs .tag {
+    display: flex;
+    flex-shrink: 0;
+    background-size: 100% 100% !important;
+}
 .page-leaderboard .player .table .level {
     width: 100%;
 }
 .page-leaderboard .player .table a:hover {
     text-decoration: underline;
+}
+
+
+/* Shitty */
+
+.shitty .page-leaderboard .board .user button {
+    background-color: transparent;
+    padding: 1rem 0;
+}
+
+
+.shitty .page-leaderboard .board .user button:hover {
+    background-color: #eee;
+    color: black !important;
+}
+
+.shitty .page-leaderboard .board .user.active button {
+    background-color: transparent;
+    color: orange;
 }
