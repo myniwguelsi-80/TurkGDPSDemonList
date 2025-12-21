@@ -36,3 +36,16 @@ export function shuffle(array) {
 
     return array;
 }
+
+// https://stackoverflow.com/a/44615197
+export function getFontColour(hexColor){
+    function getsRGB(c) {
+        return parseInt(c, 16) || c;
+    }
+
+    const brightness = Math.round(((getsRGB(hexColor.substr(1, 2)))*299 +
+                      (getsRGB(hexColor.substr(3, 2))*587) +
+                      (getsRGB(hexColor.substr(-2))*114))/1000);
+    
+    return (brightness > 125) ? 'black' : 'white';
+}
