@@ -17,5 +17,150 @@
             "Chal X"
         ],
         "colour": "#cc00ff"
+    },
+    {   
+        "name": "emirkingdom Pack",
+        "levels": [
+            "Bleeding",
+            "Bloody Night",
+            "Blue Space"
+        ],
+        "colour": "#cc3300"
+    },
+    {   
+        "name": "SwagMap Pack",
+        "levels": [
+            "Swagmap",
+            "Swagmap 2",
+            "Swagmap 3"
+        ],
+        "colour": "#ff6600"
+    },
+    {   
+        "name": "Toz Pembe Pack",
+        "levels": [
+            "Kiz Nesesi",
+            "Kiz Nesesi 2",
+            "Confess Your Love"
+        ],
+        "colour": "#cc00cc"
+    },
+    {   
+        "name": "Zobtop Pack",
+        "levels": [
+            "Stereo Circles",
+            "Back On Circles",
+            "Polarcircles"
+        ],
+        "colour": "#6699ff"
+    },
+    {   
+        "name": "Büyüleyici Pack",
+        "levels": [
+            "Kahverengi",
+            "Beasssupooppp",
+            "Drink Detergent"
+        ],
+        "colour": "#996633"
+    },
+    {   
+        "name": "Büyüleyici Pack II",
+        "levels": [
+            "Errornamod",
+            "Pilav Ustu Kuru",
+            "YARAG beta"
+        ],
+        "colour": "#996633"
+    },
+    {   
+        "name": "Çiş Molası Pack",
+        "levels": [
+            "Tesseract",
+            "Snowglobe",
+            "Her Son"
+        ],
+        "colour": "#ffcc66"
+    },
+    {   
+        "name": "PB Pack",
+        "levels": [
+            "Dimmed Out",
+            "Tuesday",
+            "Rave On"
+        ],
+        "colour": "#0099cc"
+    },
+    {   
+        "name": "Sequel Pack",
+        "levels": [
+            "Penci Zorno II",
+            "Swagmap 2",
+            "Kiz Nesesi 2"
+        ],
+        "colour": "url('https://i.imgur.com/6PTnX2N.jpeg')"
+    },
+    {   
+        "name": "Nine Circles Pack",
+        "levels": [
+            "Category 5",
+            "RacaZ VorteX",
+            "Yasink"
+        ],
+        "colour": "#ff0066"
+    },
+    {   
+        "name": "Nine Circles Pack II",
+        "levels": [
+            "Free For All",
+            "Take Me Awway",
+            "Dokuz Daireler"
+        ],
+        "colour": "#ff6600"
+    },
+    {   
+        "name": "Nine Circles Pack III",
+        "levels": [
+            "Troopa",
+            "Blue Space",
+            "ToNc II"
+        ],
+        "colour": "#993300"
+    },
+    {   
+        "name": "Nine Circles Pack IV",
+        "levels": [
+            "Prob1emati5",
+            "Take Me Away",
+            "Hellusion"
+        ],
+        "colour": "#800000"
+    },
+    {   
+        "name": "Knockoff Pack",
+        "levels": [
+            "Beholden",
+            "Wavescapes",
+            "Sitalemate"
+        ],
+        "colour": "#336699"
+    },
+    {   
+        "name": "Robot Pack",
+        "levels": [
+            "Nullgates",
+            "Errornamod",
+            "Her Son"
+        ],
+        "colour": "#33cc33"
+    },
+    {   
+        "name": "fısıldama Pack",
+        "levels": [
+            "Phobos",
+            "Amethyst Cavern",
+            "Yere Batan Sanrici"
+        ],
+        "colour": "#404040"
     }
 ]
+
