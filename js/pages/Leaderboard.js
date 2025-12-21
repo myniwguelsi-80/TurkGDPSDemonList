@@ -45,6 +45,19 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h3>{{ entry.total }}</h3>
+                        <div class="packs" v-if="entry.packs.length > 0">
+                        <div
+                            v-for="pack in entry.packs"
+                            class="tag"
+                            :style="{
+                                background: pack.colour,
+                                color: getFontColour(pack.colour)
+                            }"
+                        >
+                            {{ pack.name }}
+                        </div>
+                    </div>
+
                         <h2 v-if="entry.verified.length > 0">Verifylandı ({{ entry.verified.length }})</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
@@ -58,22 +71,6 @@ export default {
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
                             </tr>
-                        <h2 v-if="entry.packs.length > 0"> Paketler ({{ entry.packs.length }}) </h2>
-                        <table class="table packs-table" v-if="entry.packs.length > 0">
-                            <tr v-for="pack in entry.packs">
-                                <td class="pack-name">
-                                    <span
-                                        class="type-label-lg"
-                                        :style="{ color: pack.colour || '#fff' }"
-                                    >
-                                        {{ pack.name }}
-                                    </span>
-                                </td>
-                                <td class="pack-levels">
-                                    <p>{{ pack.levels.length }} level</p>
-                                </td>
-                            </tr>
-                        </table>
                         </table>
                         <h2 v-if="entry.completed.length > 0">Tamamlandı ({{ entry.completed.length }})</h2>
                         <table class="table">
