@@ -58,6 +58,22 @@ export default {
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
                             </tr>
+                        <h2 v-if="entry.packs.length > 0"> Paketler ({{ entry.packs.length }}) </h2>
+                        <table class="table packs-table" v-if="entry.packs.length > 0">
+                            <tr v-for="pack in entry.packs">
+                                <td class="pack-name">
+                                    <span
+                                        class="type-label-lg"
+                                        :style="{ color: pack.colour || '#fff' }"
+                                    >
+                                        {{ pack.name }}
+                                    </span>
+                                </td>
+                                <td class="pack-levels">
+                                    <p>{{ pack.levels.length }} level</p>
+                                </td>
+                            </tr>
+                        </table>
                         </table>
                         <h2 v-if="entry.completed.length > 0">Tamamlandı ({{ entry.completed.length }})</h2>
                         <table class="table">
