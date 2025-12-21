@@ -1,6 +1,6 @@
 [
     {   
-        "name": "Chal Paketi",
+        "name": "Chal Pack",
         "levels": [
             "Chal 3",
             "Chal 4",
@@ -8,5 +8,14 @@
             "Chal 6"
         ],
         "colour": "#9933ff"
+    },
+    {   
+        "name": "Chal Pack II",
+        "levels": [
+            "Chal 7",
+            "Chal 8",
+            "Chal X"
+        ],
+        "colour": "#cc00ff"
     }
 ]
