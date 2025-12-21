@@ -1,1 +1,12 @@
-[]
+[
+    {   
+        "name": "Chal Paketi",
+        "levels": [
+            "Chal 3",
+            "CHal 4",
+            "Chal 5",
+            "Chal 6"
+        ],
+        "colour": "#ffffff"
+    }
+]
