@@ -84,7 +84,7 @@ export default {
                     <p>
                     Bunlar, tamamı TRGDPS üyeleri tarafından seçilen ve her packteki levelleri geçip packlerin profilinizde gözükmesini sağlayabileceğiniz list packleridir.
                     </p>
-                    <h3>Bu paketleri nasıl alabilirim?</h3>
+                    <h3>Bu packleri nasıl alabilirim?</h3>
                     <p>
                     Levelleri geçmek ve kayıtlarınızın eklenmiş olması yeterlidir! Tüm seviyeler tamamlandığında packler profilinizde otomatik olarak görünecektir.
                 </div>
