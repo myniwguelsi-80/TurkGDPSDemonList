@@ -91,12 +91,6 @@
     gap: 0.4em;
         mix-blend-mode: normal;
         color: rgb(255, 255, 255);
-        text-shadow:
-            3px 3px 0 #00000057,
-          -1px -1px 0 #000,  
-           1px -1px 0 #000,
-           -1px 1px 0 #000,
-            1px 1px 0 #000;
 }
 .page-leaderboard .player .packs .tag {
     display: flex;
