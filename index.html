@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=1024" />
         <title>TRGDPS Demonlist</title>
 
+        <!-- SEO description (opsiyonel ama önerilir) -->
+        <meta
+            name="description"
+            content="TurkGDPS Demonlist, Türkiye Geometry Dash Private Server topluluğu için hazırlanmış güncel demon listesi, sıralamalar, list packleri ve rulet sistemi sunar."
+        />
+
         <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
         <link rel="icon" href="/list_icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +41,22 @@
         <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
         <script type="module" src="/js/main.js"></script>
     </head>
+
     <body id="app">
+
+        <!-- SEO için statik içerik (Google görür, kullanıcı JS açıkken görmez) -->
+        <noscript>
+            <main>
+                <h1>TurkGDPS Demonlist</h1>
+                <p>
+                    TurkGDPS Demonlist, Türkiye Geometry Dash Private Server
+                    topluluğu için hazırlanmış güncel demon listesi, oyuncu
+                    sıralamaları, list packleri ve rulet sistemi içeren bir
+                    platformdur. Lütfen tarayıcınızda "JavaScript" özelliğini açın.
+                </p>
+            </main>
+        </noscript>
+
         <header :class="{ dark: store.dark }">
             <div class="logo">
                 <h2>TurkGDPS DL</h2>
@@ -64,11 +85,9 @@
                             alt=""
                         />
                     </button>
-                    <!-- Replace the '#' with your discord server's invite-->
                     <a class="nav__icon" href="https://discord.gg/PH6U7FCEuH">
                         <img src="/assets/discord.svg" alt="Discord Logo" />
                     </a>
-                    <!-- List record submission form, add a link to replace the '#' when putting a link to your list submission form-->
                     <a
                         class="nav__cta type-label-lg"
                         href="https://discord.gg/PH6U7FCEuH"
@@ -78,6 +97,7 @@
                 </div>
             </nav>
         </header>
+
         <router-view :class="{ dark: store.dark }"></router-view>
     </body>
 </html>
