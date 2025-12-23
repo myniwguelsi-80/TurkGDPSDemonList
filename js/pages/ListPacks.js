@@ -49,6 +49,10 @@ export default {
                             <div class="type-title-sm">ID</div>
                             <p>{{ selectedPackLevels[selectedLevel][0].level.id }}</p>
                         </li>
+                        <li>
+                            <div class="type-title-sm">Reupload</div>
+                            <p>{{ selectedPackLevels[selectedLevel][0].level.reupload }}</p>
+                        </li>
                     </ul>
                     <h2>Kayıtlar</h2>
                     <p v-if="selected + 1 <= 50">Kayıt gönderebilmek için <strong>{{ selectedPackLevels[selectedLevel][0].level.percentToQualify }}%</strong> ya da daha fazla yap</p>
