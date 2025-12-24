@@ -2,8 +2,8 @@
 -Site paylaşıldı.
 
 # v1.1.0
--Sitenin renkleri düzeltildi.
--Bazı levellerin reupload statüsü değiştirildi.
+-Sitenin renkleri düzeltildi.  
+-Bazı levellerin reupload statüsü değiştirildi.  
 -Rulet kısmındaki "Genişletilmiş Liste", "Extended List" olarak; "Ana Liste", "Main List" olarak değiştirilmiştir.
 
 # v1.2.0
