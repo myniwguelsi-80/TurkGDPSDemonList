@@ -170,6 +170,27 @@
             "Quaoar"
         ],
         "colour": "url('https://i.imgur.com/QwGz9ow_d.webp?maxwidth=760&fidelity=grand')"
+    },
+    {
+        "name": "Çhal Pack",
+        "levels": [
+            "UltraChal",
+            "Gokkusag1 Challenge",
+            "Banana challenge"
+        ],
+        "colour": "#f0ff66"
+    }
+    {
+        "name": "Ayıp Şeyler Pack",
+        "levels": [
+            "Penci Zorno II",
+            "Opiç",
+            "YARAG beta",
+            "KOY KOY",
+            "Sonics Jays"
+            
+        ],
+        "colour": "#800000"
     }
 ]
 
