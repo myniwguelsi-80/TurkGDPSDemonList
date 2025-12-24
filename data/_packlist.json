@@ -161,6 +161,15 @@
             "Yere Batan Sanrici"
         ],
         "colour": "#404040"
+    },
+    {
+        "name": "Extreme Demon Pack",
+        "levels": [
+            "Phobos",
+            "Zodiac",
+            "Quaoar"
+        ],
+        "colour": "url('https://i.imgur.com/QwGz9ow_d.webp?maxwidth=760&fidelity=grand')"
     }
 ]
 
