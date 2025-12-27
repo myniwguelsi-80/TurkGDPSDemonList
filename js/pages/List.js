@@ -67,6 +67,10 @@ export default {
                             <div class="type-title-sm">Reupload</div>
                             <p>{{ level.reupload || 'Hayır' }}</p>
                         </li>
+                        <li>
+                            <div class="type-title-sm">Skillset</div>
+                            <p>{{ level.skillset || '-' }}</p>
+                        </li>
                     </ul>
                     <h2>Kayıtlar</h2>
                     <p v-if="selected + 1 <= 50">Kayıt gönderebilmek için <strong>{{ level.percentToQualify }}%</strong> ya da daha fazla yap</p>
