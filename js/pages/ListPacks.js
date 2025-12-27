@@ -105,7 +105,7 @@ export default {
                             </p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Skillset</div>
+                            <div class="type-title-sm">Skıllset</div>
                             <p>
                                 {{
                                     selectedPackLevels[selectedLevel][0].level
