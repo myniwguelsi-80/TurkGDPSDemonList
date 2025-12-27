@@ -54,7 +54,7 @@ export default {
                             <p>{{ selectedPackLevels[selectedLevel][0].level.reupload }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Skillset</div>
+                            <div class="type-title-sm">Skıllset</div>
                             <p>{{ level.skillset || '-' }}</p>
                         </li>
                     </ul>

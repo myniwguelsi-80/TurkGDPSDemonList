@@ -20,3 +20,6 @@
 
 ### v1.3.03
 -Packlerdeki leveller artık zorluğa göre sıralanıyor.
+
+# v1.3.1
+-Levellerin artık skillsetleri sitede gözüküyor.
