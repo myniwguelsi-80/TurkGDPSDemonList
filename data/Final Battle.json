@@ -10,6 +10,11 @@
     "reupload": "Evet",
     "skillset": "Overall",
     "records": [
-                 
+          {
+              "user": "GhostLord",
+            "link": "#",
+            "percent": 100,
+            "hz": 144
+        }       
     ]
 }
