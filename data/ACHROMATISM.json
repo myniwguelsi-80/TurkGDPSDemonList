@@ -14,6 +14,12 @@
             "link": "https://www.youtube.com/watch?v=7Yf_3QOL3kE",
             "percent": 100,
             "hz": 165
+        },
+        {
+              "user": "Cretnox",
+            "link": "https://www.youtube.com/watch?v=3Yp8t1fm5yE",
+            "percent": 100,
+            "hz": 1000
         }
     ]
 }
