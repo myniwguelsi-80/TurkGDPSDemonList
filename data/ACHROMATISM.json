@@ -3,7 +3,7 @@
     "name": "ACHROMATISM",
     "author": "CirclezGD",
     "creators": ["CirclezGD"],
-    "verifier": "[Server Dışı] silent",
+    "verifier": "silent",
     "verification": "https://youtu.be/lcCZTygwzMg",
     "percentToQualify": 100,
     "reupload": "Evet",
