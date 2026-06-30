@@ -9,6 +9,11 @@
     "reupload": "Hayır",
     "skillset": "Wave, Flow, Fast Paced",
     "records": [
-       
+        {
+              "user": "MyniwGuels",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
